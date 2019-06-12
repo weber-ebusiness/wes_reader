@@ -11,6 +11,16 @@
 ChangeLog
 =========
 
+**Changes in wes_reader 1.2.1**
+
+- Add composer.json
+- Update documentation
+
+**Changes in wes_reader 1.2.0**
+
+- Add T3 8 and 9 compatibility
+- Remove T3 6.2 compatibility
+
 **Changes in wes_reader 1.1.0**
 
 - Exclude required settings using extension configuration for easier base configuration

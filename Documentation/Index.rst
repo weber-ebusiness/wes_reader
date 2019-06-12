@@ -31,7 +31,7 @@ EXT: Voice Reader Text-to-Speech
         forAdmins, forBeginners, Text to Speech, Sprachausgabe, Sprachsynthese, Vorlesesoftware, Reader, Vorlesen, Speech, Accessibility, Inclusion, Inklusion, Barrierefreiheit.
 
     :Copyright:
-        2002-2016
+        2002-2019
 
     :Author:
         Weber eBusiness Services
