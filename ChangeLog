@@ -1,4 +1,7 @@
 (add new changes on top of this file)
+1.2.1, 2019-06-12, Weber eBusiness Services <info@weber-ebusiness.de>
+    * Add composer.json
+
 1.2.0, 2019-02-25, Weber eBusiness Services <info@weber-ebusiness.de>
     * Add T3 8 and 9 compatibility
     * Remove T3 6.2 compatibility
