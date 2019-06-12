@@ -1,0 +1,24 @@
+<f:layout name="Default" />
+
+<f:section name="main">
+    <link href="{settings.vreader_css}" rel="stylesheet" type="text/css" />
+    <f:comment>{settings->f:debug()}</f:comment>
+    <script type="text/javascript"><!--
+        vrweb_customerid='{customerid}';
+
+        vrweb_player_form='{settings.player_form}';
+        vrweb_player_type='{settings.player_type}';
+        vrweb_player_color='{settings.player_color}';
+        vrweb_guilang='{settings.guilang}';
+
+        vrweb_icon='{settings.icon->f:format.raw()}';
+        vrweb_iconcolor='{settings.iconcolor}';
+
+        vrweb_sndgender='{settings.sndgender}';
+        vrweb_lang='{settings.lang}';
+
+        vrweb_readelementsclass='{settings.class2read}';
+        vrweb_exclelementsclass='{settings.class2hush}';
+    //--></script>
+    <script type="text/javascript" charset="UTF-8" src="{api}"></script>
+</f:section>

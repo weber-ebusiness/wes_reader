@@ -1,0 +1,7 @@
+plugin.tx_wesreader {
+    view {
+        templateRootPath = EXT:wes_reader/Resources/Private/Templates/
+        partialRootPath = EXT:wes_reader/Resources/Private/Partials/
+        layoutRootPath = EXT:wes_reader/Resources/Private/Layouts/
+    }
+}

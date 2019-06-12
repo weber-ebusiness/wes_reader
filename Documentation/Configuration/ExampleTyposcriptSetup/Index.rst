@@ -1,0 +1,79 @@
+.. ==================================================
+.. FOR YOUR INFORMATION
+.. --------------------------------------------------
+.. -*- coding: utf-8 -*- with BOM.
+
+.. include:: ../../Includes.txt
+
+
+.. _configuration-example-typoscript-setup:
+
+Example TypoScript Setup (equals default configuration)
+-------------------------------------------------------
+
+Constants:
+
+.. code-block:: typoscript
+
+  plugin.tx_wesreader {
+
+      view {
+          templateRootPath = EXT:wes_reader/Resources/Private/Templates/
+          partialRootPath = EXT:wes_reader/Resources/Private/Partials/
+          layoutRootPath = EXT:wes_reader/Resources/Private/Layouts/
+      }
+  }
+
+
+Setup:
+
+.. code-block:: typoscript
+
+  plugin.tx_wesreader {
+
+      view {
+          templateRootPaths {
+              0 = {$plugin.tx_wesreader.view.templateRootPath}
+          }
+          partialRootPaths {
+              0 = {$plugin.tx_wesreader.view.partialRootPath}
+          }
+          layoutRootPaths {
+              0 = {$plugin.tx_wesreader.view.layoutRootPath}
+          }
+      }
+
+      settings {
+
+          // voice reader css
+          vreader_css = http://vrweb15.linguatec.org/VoiceReaderWeb15User/player/styles/black/player_skin.css
+
+          // container class for reading
+          class2read = read
+
+          // container class for not reading
+          class2hush = readnot
+
+          // M => male, W => female
+          sndgender = W
+
+          // language
+          lang = de-DE
+          guilang = de
+
+          // 1 => player form, 0 => simple play button
+          player_form = 1
+
+          // hover => as layer, embedded => included below the button, popup => player in popup
+          player_type = embedded
+
+          // black, blue, grey
+          player_color = black
+
+          // Button content: Text or HTML or 00, 01, 02, 03, 04, 05 for predefined buttons
+          icon = <span>Vorlesen/MP3-Download</span>
+
+          // only in case predefined buttons: black, blue, grey, green, red
+          iconcolor =
+      }
+  }

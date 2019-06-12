@@ -1,0 +1,5 @@
+# cat=required/enable/180; type=string; label=Linguatec Customerid Id: The required Linguatec customer id. You will get that ID, when you contact us for a free licence: http://www.weber-ebusiness.de/request-wes-reader-trial-key.html
+customerid =
+
+# cat=required/enable/180; type=string; label=Typo3 Code Id: The required TYPO3 code ID. You will get that ID, when you contact us for a free licence: http://www.weber-ebusiness.de/request-wes-reader-trial-key.html
+typo3codeid =

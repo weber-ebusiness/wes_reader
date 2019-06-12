@@ -1,0 +1,75 @@
+(add new changes on top of this file)
+1.2.0, 2019-02-25, Weber eBusiness Services <info@weber-ebusiness.de>
+    * Add T3 8 and 9 compatibility
+    * Remove T3 6.2 compatibility
+
+
+1.1.1, 2018-07-13, Weber eBusiness Services <info@weber-ebusiness.de>
+    * Change ReaderController::getAPISource to use default protocol instead of http
+
+
+1.1.0, 2016-07-25, Weber eBusiness Services <info@weber-ebusiness.de>
+    * Define required settings by using extension configuration
+    * Update documentation
+
+
+1.0.2, 2016-06-15, Weber eBusiness Services <info@weber-ebusiness.de>
+    * Update documentation
+
+
+1.0.1, 2016-06-06, Weber eBusiness Services <info@weber-ebusiness.de>
+    * Change naming
+    * Remove wes_utils dependency
+    * Update documentation
+
+
+1.0.0, 2016-05-14, Weber eBusiness Services <info@weber-ebusiness.de>
+    * Add T3 7 compatibility
+    * Remove T3 4.5 compatibility
+    * Migrate pibase extension to extbase extension
+    * Adapted the new VR 15 API
+
+
+0.2.7, 2013-11-06, Weber eBusiness Services <info@weber-ebusiness.de>
+    * Made loadTCA-call in ext_tables.php conditional
+
+
+0.2.6, 2013-06-20, Weber eBusiness Services <info@weber-ebusiness.de>
+    * Update Comments
+
+
+0.2.5, 2012-06-21, Weber eBusiness Services <info@weber-ebusiness.de>
+
+    * Updated Popup URL to fit new Linguatec infrastructure
+    * Outsourced reader URL into TS setup
+
+
+0.2.4, 2009-03-13, Weber eBusiness Services <info@weber-ebusiness.de>
+
+    * Added TS option class2hush
+
+
+0.2.3, 2009-03-13, Weber eBusiness Services <info@weber-ebusiness.de>
+
+    * Modified manual. Thanks to the city of Lebach for sponsoring the creation.
+    * Fixed dependency to wes_utils
+
+
+0.2.2, 2009-03-11, Weber eBusiness Services <info@weber-ebusiness.de>
+
+    * Class name which identifies readable content can be configured in TS setup
+
+
+0.2.1, 2009-01-16, Weber eBusiness Services <info@weber-ebusiness.de>
+
+    * Extension now uses urlencode() to encode the URL of the current page
+
+
+0.2.0, 2009-01-12, Weber eBusiness Services <info@weber-ebusiness.de>
+
+    * Added multi language support
+
+
+0.1.0, 2009-01-08, Weber eBusiness Services <info@weber-ebusiness.de>
+
+    * Initial release
